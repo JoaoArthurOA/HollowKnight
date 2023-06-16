@@ -13,6 +13,8 @@ public class Menu extends AppCompatActivity {
     ImageButton btnhistoria;
     ImageButton btnpoderes;
 
+    Button  btnsair;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +42,14 @@ public class Menu extends AppCompatActivity {
             public void onClick(View view){
                 Intent poderes = new Intent(getApplicationContext(),poderes.class);
                 startActivity(poderes);
+            }
+        });
+        btnsair = (Button) findViewById(R.id.btnsair);
+        btnsair.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                finish();
+                System.exit(0);
             }
         });
     }
