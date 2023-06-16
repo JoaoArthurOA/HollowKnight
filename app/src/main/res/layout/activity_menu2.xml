@@ -19,7 +19,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.909"
-        app:srcCompat="@drawable/botao_poder" />
+        app:srcCompat="@drawable/botao_poder"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/btnhistoria"
@@ -33,7 +34,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.936"
-        app:srcCompat="@drawable/botao_historia" />
+        app:srcCompat="@drawable/botao_historia"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/btnmapa"
@@ -55,7 +57,7 @@
         android:id="@+id/btnsair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#F6F5F6"
+
         android:backgroundTint="#FFFFFF"
         android:drawableTint="#EFECEC"
         android:foregroundTint="#FFFFFF"
