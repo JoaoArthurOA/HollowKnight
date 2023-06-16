@@ -41,8 +41,8 @@
 
     <ImageView
         android:id="@+id/imgkingsoul"
-        android:layout_width="102dp"
-        android:layout_height="158dp"
+        android:layout_width="80dp"
+        android:layout_height="146dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -53,8 +53,8 @@
 
     <ImageView
         android:id="@+id/imgwhitelady"
-        android:layout_width="102dp"
-        android:layout_height="158dp"
+        android:layout_width="83dp"
+        android:layout_height="149dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"

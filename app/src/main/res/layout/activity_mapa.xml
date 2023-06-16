@@ -24,15 +24,16 @@
         android:layout_width="200dp"
         android:layout_height="170dp"
         android:width="200dp"
-        android:text="Sem mente pra pensar; \n Sem vontade pra quebrar; \n Sem voz para gritar o sofrimento. \n  Nascido de Deus e do Vazio; \n Você irá selar a Luz ofuscante que assola seus sonhos. \n Você é o Receptáculo; \n Você é o Cavaleiro Vazio."
+        android:text="@string/vazio"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="0.698" />
 
     <Button
         android:id="@+id/btnvoltarmapa"
